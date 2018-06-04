@@ -8,7 +8,7 @@
     "build": "webpack --optimize-minimize",
     "prod": "NODE_ENV=production node server.jsx",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "heroku-postbuild": "npm install && npm run build"
+    "heroku-postbuild": "npm run build"
   },
   "license": "ISC",
   "dependencies": {
